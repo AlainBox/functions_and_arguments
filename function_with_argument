@@ -1,0 +1,9 @@
+console.log("Hello students"); // It works.
+
+const paintingWalls = function (color){
+    console.log("The wall has been painted " + color);
+};
+
+paintingWalls("green");
+paintingWalls("blue");
+paintingWalls(); // calling the function like this will give you 'The wall has been painted undefined'.
