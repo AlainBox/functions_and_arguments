@@ -1,0 +1,11 @@
+console.log("Hello students"); // It works.
+
+const paintingWalls = function (specificWall, color){
+    console.log("The " + specificWall + " wall has been painted " + color);
+};
+
+paintingWalls("south", "grey");
+
+// The order of the arguments does matter when calling the function. Because otherwise it will give you 'The grey wall has been painted northern'.
+// Changing only the function definition gives you: 'The grey wall has been painted northern'.
+// Changing both the function definition aswell as the order of the arguments gives you the same result as the initial one.
