@@ -1,0 +1,7 @@
+console.log ("Hello Students") // It works.
+
+const paintingWalls = function (){
+    console.log("The wall has been painted red");
+};
+
+paintingWalls();
